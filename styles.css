@@ -60,9 +60,21 @@ section {
     margin-right: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
+.black-text {
+    color: black; /* Set text color to black */
+}
+
+.highlight {
+    background-color: #ffa500; /* Orange background color for highlighted sections */
+}
+
+/* Style for the soccer ball */
+#soccerBall {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
